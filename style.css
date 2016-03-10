@@ -1,0 +1,75 @@
+/*
+
+Theme Name: Amanda Rincon Blank Theme
+Theme URI: Amanda Rincon Blank
+Author: Amanda Rincon
+Description: Blank themes for WEI course
+Version: 0.1
+License: Open
+Text Domain: amanda_rincon_blank_template
+
+*/
+
+@import url("css/normalize.css");
+@import url("css/skeleton.css");
+
+*{
+    color: #000000;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+}
+
+h2, h4, h6 {
+
+}
+
+h1, h1 a {
+	font-size: 4.5rem;
+}
+h2 {
+
+}
+h3, h3 a {
+	font-size: 3.5rem;
+}
+h4 {
+
+}
+h5 {
+
+}
+h6 {
+
+}
+
+/*--- Menu --- */
+
+.blank-menu-header {
+
+}
+.blank-menu-header ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none;
+}
+.blank-menu-header li {
+    display: inline;
+}
+.blank-menu-header ul li a {
+    text-decoration:none;
+    margin: 4px;
+    padding: 5px 0px 5px 40px;
+    font-weight: 300;
+}
+.blank-menu-header ul li a:hover {
+    color: #cccccc;
+}
+
+.single-post-thumbnail img {
+	width: 100%;
+	height: auto;
+}
