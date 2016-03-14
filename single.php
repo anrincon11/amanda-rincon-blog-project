@@ -12,6 +12,7 @@
 				while ( have_posts() ) {
 					the_post();?>
 					<h3><?php the_title(); ?></h3>
+					<h4><?php the_date(); ?></h4>
 					<?php
 					if ( has_post_thumbnail() ) { ?>
 						<div class="single-post-thumbnail">
