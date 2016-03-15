@@ -15,10 +15,10 @@
 			<div class="twelve columns">
 				<h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
 			</div>
-			<div class="three columns">
-				<?php get_search_form(); ?>
-			</div>
 		</header>
+		<div class="three columns">
+			<?php get_search_form(); ?>
+		</div>
 		<!-- Add Menu Here -->
 		<div class="row">
 		    <div class="twelve columns">
