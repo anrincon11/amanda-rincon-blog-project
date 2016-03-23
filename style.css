@@ -51,6 +51,8 @@ h3, h3 a {
 
 h6 {
 	font-style: italic;
+	margin: 20px 0;
+	text-align: right;
 }
 
 p {
