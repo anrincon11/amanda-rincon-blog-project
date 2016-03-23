@@ -40,8 +40,17 @@ h1 a:hover {
 	color: #b7b7b7;
 }
 
+h3 {
+	margin: 0;
+	padding: 0;
+}
+
 h3, h3 a {
 	font-size: 3.5rem;
+}
+
+h6 {
+	font-style: italic;
 }
 
 p {

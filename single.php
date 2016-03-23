@@ -23,7 +23,7 @@
 				while ( have_posts() ) {
 					the_post();?>
 					<h3><?php the_title(); ?></h3>
-					<h5><?php the_date(); ?></h5>
+					<h6><?php the_date(); ?></h6>
 
 					<?php the_content();
 				}
