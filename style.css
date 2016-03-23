@@ -32,12 +32,12 @@ h1, h1 a {
 	font-family: 'ChasingEmbers';
 	font-size: 8.0rem;
 	text-decoration: none;
-	color: #cbcbcb;
+	color: #b7b7b7;
 	text-align: center;
 }
 
 h1 a:hover {
-	color: #cbcbcb;
+	color: #b7b7b7;
 }
 
 h3, h3 a {
@@ -45,31 +45,38 @@ h3, h3 a {
 }
 
 header {
-	border-bottom: 2px solid #cbcbcb;
+	border-bottom: 2px solid #b7b7b7;
 }
 
 /*--- Menu --- */
 
-.blank-menu-header {
-
+.menu {
+	margin-top: 20px;
 }
-.blank-menu-header ul {
+
+.menu ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
     list-style-image: none;
 }
-.blank-menu-header li {
+
+.menu li {
     display: inline;
 }
-.blank-menu-header ul li a {
-    text-decoration:none;
+
+.menu ul li a {
+	color: #b7b7b7;
+    text-decoration: none;
     margin: 4px;
     padding: 5px 0px 5px 40px;
-    font-weight: 300;
+    font-weight: bold;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
 }
-.blank-menu-header ul li a:hover {
-    color: #cccccc;
+
+.menu ul li a:hover {
+    color: #55b4b0;
 }
 
 .single-post-thumbnail img {
