@@ -1,4 +1,9 @@
 <?php
+
+/*--- Enable Post Thumbnails ---*/
+add_theme_support( 'post-thumbnails' );
+
+
 /*-------------- Enable Widgets--------------- */
 
 function blank_widgets_init() {
