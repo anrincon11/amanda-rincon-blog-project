@@ -7,14 +7,10 @@
 					    while ( have_posts() ) {
 					        the_post(); ?>
 
-				<div class="row">
-					<div class="three columns">
+					<div class="four columns">
 						<?php if ( has_post_thumbnail() ) { the_post_thumbnail('thumbnail'); } ?>
+						<p><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
 					</div>
-					<div class="nine columns">
-						<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-					</div>
-				</div>
 
 							<?php } // end while
 					} // end if
