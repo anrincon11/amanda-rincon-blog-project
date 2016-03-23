@@ -44,12 +44,16 @@ h3, h3 a {
 	font-size: 3.5rem;
 }
 
-header {
-	border-bottom: 2px solid #b7b7b7;
+p {
+	font-family: 'Lato', sans-serif;
 }
 
 a {
 	text-decoration: none;
+}
+
+header {
+	border-bottom: 2px solid #b7b7b7;
 }
 
 /*--- Menu --- */
