@@ -48,6 +48,10 @@ header {
 	border-bottom: 2px solid #b7b7b7;
 }
 
+a {
+	text-decoration: none;
+}
+
 /*--- Menu --- */
 
 .menu {
