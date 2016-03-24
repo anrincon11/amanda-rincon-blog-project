@@ -8,9 +8,9 @@
 		}
 	?>
 
-	<?php dynamic_sidebar('first-widget'); ?>
+	<?php dynamic_sidebar('page'); ?>
 
-	<h5>Web Dev Categories</h5>
+	<h2>Web Dev Categories</h2>
 	<ul>
 	<?php
 
