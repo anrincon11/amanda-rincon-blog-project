@@ -96,6 +96,21 @@ header {
 	text-transform: uppercase;
 }
 
+.blank-menu-header ul li a {
+	color: #b7b7b7;
+    text-decoration: none;
+    margin: 4px;
+    font-weight: bold;
+	font-family: 'Lato', sans-serif;
+	padding: 5px 0px 5px 40px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.blank-menu-header ul li:first-child a {
+    padding: 5px 0px 5px 0px;
+}
+
 .blank-menu-header ul li a:hover {
     color: #55b4b0;
 }
