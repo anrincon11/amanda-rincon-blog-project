@@ -28,7 +28,7 @@
 					<div class="four columns">
 						<h6><?php the_date(); ?></h6>
 					</div>
-
+					
 					<?php the_content();
 				}
 			}?>

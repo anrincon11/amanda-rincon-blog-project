@@ -1,7 +1,7 @@
 <!-- BEGIN FOOTER -->
 	<footer class="row">
 		<div class="twelve columns">
-			<?php dynamic_sidebar('footer-middle'); ?>
+			<p>Copyright 2016. Amanda Rincon. All Rights Reserved.</p>
 		</div>
 
 	</footer>

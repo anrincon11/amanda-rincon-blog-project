@@ -10,7 +10,7 @@
 
 	<?php dynamic_sidebar('first-widget'); ?>
 
-	<h4>Web Dev Categories</h4>
+	<h5>Web Dev Categories</h5>
 	<ul>
 	<?php
 
