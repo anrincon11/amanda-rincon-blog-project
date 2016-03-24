@@ -118,6 +118,8 @@ header {
 /* --- Footer --- */
 
 footer {
-	background-color: #cccccc;
+	background-color: #808080;
 	text-align: center;
+	color: #ffffff;
+	padding: 10px;
 }
