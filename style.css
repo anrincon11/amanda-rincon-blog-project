@@ -102,3 +102,15 @@ header {
 	width: 100%;
 	height: auto;
 }
+
+/* --- Sidebar --- */
+
+#sidebar-content ul {
+	list-style-type: none;
+}
+
+#sidebar-content h2 {
+	font-size: 2.5rem;
+}
+
+/* --- Posts --- */
