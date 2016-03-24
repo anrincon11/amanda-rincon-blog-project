@@ -63,28 +63,30 @@ a {
 	text-decoration: none;
 }
 
+/*--- Header --- */
+
 header {
 	border-bottom: 2px solid #b7b7b7;
 }
 
 /*--- Menu --- */
 
-.menu {
+.blank-menu-header {
 	margin-top: 20px;
 }
 
-.menu ul {
+.blank-menu-header ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
     list-style-image: none;
 }
 
-.menu li {
+.blank-menu-header li {
     display: inline;
 }
 
-.menu ul li a {
+.blank-menu-header ul li a {
 	color: #b7b7b7;
     text-decoration: none;
     margin: 4px;
@@ -94,7 +96,7 @@ header {
 	text-transform: uppercase;
 }
 
-.menu ul li a:hover {
+.blank-menu-header ul li a:hover {
     color: #55b4b0;
 }
 
@@ -113,4 +115,9 @@ header {
 	font-size: 2.5rem;
 }
 
-/* --- Posts --- */
+/* --- Footer --- */
+
+footer {
+	background-color: #cccccc;
+	text-align: center;
+}
