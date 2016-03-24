@@ -104,7 +104,7 @@ header {
 	font-family: 'Lato', sans-serif;
 	padding: 5px 0px 5px 40px;
 	text-transform: uppercase;
-	letter-spacing: 5px;
+	letter-spacing: 4px;
 }
 
 .blank-menu-header ul li:first-child a {
