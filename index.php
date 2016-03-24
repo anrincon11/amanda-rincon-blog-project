@@ -3,7 +3,11 @@
 		<section class="row">
 			<div class="twelve columns">
 
-				<?php dynamic_sidebar('featured-post'); ?>
+				<div id="headline">
+					<h5>FEATURED ARTICLE</h5>
+
+					<?php dynamic_sidebar('featured-post'); ?>
+				</div>
 
 				<?php
 					if ( have_posts() ) {
