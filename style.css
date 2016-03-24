@@ -136,6 +136,7 @@ header {
 	background-color: #999999;
 	height: 60px;
 	padding-top: 20px;
+	margin-top: -7px;
 }
 
 .four.columns a {
