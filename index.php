@@ -4,7 +4,7 @@
 			<div class="twelve columns">
 
 				<div id="headline">
-					<h5>FEATURED ARTICLE</h5>
+					<h5>–– FEATURED ARTICLE ––</h5>
 
 					<?php dynamic_sidebar('featured-post'); ?>
 				</div>
