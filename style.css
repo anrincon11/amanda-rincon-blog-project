@@ -133,6 +133,14 @@ header {
 
 .four.columns p {
 	text-align: center;
+	background-color: #999999;
+	height: 60px;
+	padding-top: 20px;
+}
+
+.four.columns a {
+	color: #ffffff;
+	font-size: 21px;
 }
 
 /* --- Page Sidebar --- */
