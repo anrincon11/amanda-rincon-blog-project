@@ -115,6 +115,10 @@ header {
     color: #55b4b0;
 }
 
+.blank-menu-header ul li.current-menu-item a {
+	color: #55b4b0;
+}
+
 .single-post-thumbnail img {
 	width: 100%;
 	height: auto;
