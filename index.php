@@ -2,6 +2,9 @@
 
 		<section class="row">
 			<div class="twelve columns">
+
+				<?php dynamic_sidebar('featured-post'); ?>
+
 				<?php
 					if ( have_posts() ) {
 					    while ( have_posts() ) {
