@@ -2,7 +2,7 @@
 	<?php
 	if ( has_post_thumbnail() ) { ?>
 		<div class="single-post-thumbnail">
-			<?php the_post_thumbnail('large'); ?>
+			<?php the_post_thumbnail('small'); ?>
 		</div>
 		<?php
 		}

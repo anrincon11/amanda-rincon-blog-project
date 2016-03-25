@@ -198,9 +198,6 @@ header {
 }
 
 #sidebar-content img {
-	width: 80%;
-	margin-left: 20px;
-	border-radius: 15px;
 	-webkit-box-shadow: 3px 3px 10px 1px #BDBDBD;
 	box-shadow: 3px 3px 10px 1px #BDBDBD;
 }
