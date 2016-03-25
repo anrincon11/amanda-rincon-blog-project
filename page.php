@@ -7,7 +7,7 @@
 		</div>
 <!-- END SIDEBAR -->
 
-		<div class="nine columns">
+		<div id="about" class="nine columns">
             <?php if (have_posts()) :
                 while (have_posts()) : the_post(); ?>
 					<?php the_content();

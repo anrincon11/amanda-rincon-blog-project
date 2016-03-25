@@ -167,6 +167,14 @@ header {
 	font-size: 21px;
 }
 
+/* --- About Page --- */
+
+#about {
+	border-left: 1px solid #b7b7b7;
+	padding-left: 40px;
+	margin-bottom: 50px;
+}
+
 /* --- Page Sidebar --- */
 
 #sidebar-content h2 {
@@ -177,6 +185,7 @@ header {
 
 #sidebar-content ul li a {
 	color: #b7b7b7;
+	font-size: 1.25rem;
 }
 
 #sidebar-content ul li a:hover {
@@ -185,6 +194,26 @@ header {
 
 #sidebar-content ul {
 	list-style-type: none;
+}
+
+#sidebar-content img {
+	width: 80%;
+	margin-left: 20px;
+	border-radius: 15px;
+	-webkit-box-shadow: 3px 3px 10px 1px #BDBDBD;
+	box-shadow: 3px 3px 10px 1px #BDBDBD;
+}
+
+#categories h2 {
+	text-align: center;
+}
+
+#categories li {
+	text-align: center;
+}
+
+#categories li a {
+	font-size: 1.25rem;
 }
 
 .widget-page {
