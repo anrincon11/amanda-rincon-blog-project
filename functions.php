@@ -61,4 +61,15 @@ function custom_taxonomy_wie_init() {
 }
 add_action( 'init', 'custom_taxonomy_wie_init' );
 
+/*---------- Enqueue Files ----------- */
+
+wp_deregister_script('jquery');
+
+wp_enqueue_script(
+	'jquery',
+	'http://code.jquery.com/jquery-latest.min.js',
+	'','',
+	true
+);
+
 ?>
