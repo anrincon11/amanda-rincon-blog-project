@@ -1,5 +1,5 @@
 <!-- BEGIN FOOTER -->
-	<footer class="row">
+	<footer id="footer" class="row">
 		<div class="twelve columns">
 			<p>Copyright 2016. Amanda Rincon. All Rights Reserved.</p>
 		</div>
